@@ -46,11 +46,7 @@ def save():
     b2.configure(command=lambda : pyperclip.copy(xa))
     b2.pack()
 b1 = Button(text = "Generate",  command=save)
-   #button_dict[i]=ttk.Button(win, text=i, command=make())
-   #button_dict[i].pack()
 b1.pack()
-
-
 win.mainloop()
 
 
